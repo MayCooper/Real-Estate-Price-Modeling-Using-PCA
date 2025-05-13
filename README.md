@@ -103,6 +103,14 @@ An Ordinary Least Squares (OLS) regression was performed using the six principal
 
 All independent variables (principal components) were statistically significant with p-values < 0.01.
 
+### Regression Summary Output
+
+![Best Model](https://github.com/user-attachments/assets/8fe4b2d9-132e-4e71-9e35-153b3ad34ec3)
+
+This regression summary shows the results of fitting a linear model using the six selected principal components. The model explains about 52% of the variance in housing prices (R² = 0.5213), with an adjusted R² of 0.5208, which accounts for model complexity. All predictor coefficients are statistically significant (p < 0.01), meaning they contribute meaningfully to the prediction.
+
+The F-statistic is high and the p-value is near zero, indicating that the model as a whole is a strong fit for the data. The Durbin-Watson value is close to 2, suggesting no significant autocorrelation in the residuals. Overall, these results support the reliability of the PCA-based regression model for forecasting property prices.
+
 ### Scree Plot of Cumulative Explained Variance
 
 ![scree_plot](https://github.com/user-attachments/assets/6b457fec-1543-430c-a923-485b5bab7bcf)
