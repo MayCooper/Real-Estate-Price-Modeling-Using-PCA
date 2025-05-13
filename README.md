@@ -103,6 +103,12 @@ An Ordinary Least Squares (OLS) regression was performed using the six principal
 
 All independent variables (principal components) were statistically significant with p-values < 0.01.
 
+### Scree Plot of Cumulative Explained Variance
+
+![scree_plot](https://github.com/user-attachments/assets/6b457fec-1543-430c-a923-485b5bab7bcf)
+
+This scree plot shows how much total variance is captured as we add more principal components. The red line marks the point where 90% of the variance is explained, which is a common rule of thumb for keeping enough information. The green dashed line shows the “elbow point” at component 6—after that, each new component adds only a small amount of value. Based on this, we kept the first six components for the regression model to simplify the data without losing important patterns.
+
 ---
 
 ## Final Model Equation (Simplified)
